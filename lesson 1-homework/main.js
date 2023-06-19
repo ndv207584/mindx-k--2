@@ -103,3 +103,35 @@ const myFunc_8 = (make, arrCar) => {
     return result_8;
 };
 console.log(myFunc_8("ford", arrCar));
+
+// Bài 9
+const order = {
+    cart: [
+        { id: 1, name: "ao dai", amount: 5, price: 100000 },
+        { id: 2, name: "ao coc", amount: 2, price: 200000 },
+        { id: 3, name: "quan dai", amount: 3, price: 150000 },
+        { id: 4, name: "quan coc", amount: 4, price: 130000 },
+    ],
+    customer: "Name",
+    address: "12 Giai Phong Street",
+};
+// const arr9 = (order) => {
+//     let totalOfMoney = 0;
+//     let totalOfAmount = 0;
+//     for(let item in order){
+//         if(typeof order[item] === "object"){
+//             for(let item_1 in order[item]){
+//                 totalOfAmount += order[item][item_1].amount;
+//                 totalOfMoney += order[item][item_1].price;
+//             }
+//         }
+//     }
+// };
+// console.log(arr9(order));
+
+const {price, amount} = [{amount: 5, price: 100000}, {amount: 2, price: 200000}, {amount: 3, price: 150000}, {amount: 4, price: 130000}].reduce((acc, result) =>{
+    acc.amount += result.amount;
+    acc.price = acc.price + (result.price * result.amount);
+    return acc;
+}, {price: 0, amount: 0});
+console.log('Total of price', price, ',' , 'Total of amount', amount);
