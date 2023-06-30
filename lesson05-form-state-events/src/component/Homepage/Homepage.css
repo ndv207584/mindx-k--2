@@ -1,0 +1,38 @@
+.HomePage{
+    display: block;
+}
+
+.ProductItem{
+    padding: 2px 4px;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 1px solid gray;
+}
+
+.ProductItemContent{
+    padding: 10px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 5px;
+}
+
+.ProductDiscount{
+    color: red;
+    display: flex;
+    transform: translate(130px,-43px);
+}
+
+.Button{
+    display: flex;
+    margin-top: -32px;
+    border: 1px solid rgb(33, 207, 27);
+    border-radius: 5px;
+    background-color: rgb(33, 207, 27);
+    width: 100%;
+    justify-content: center;
+}
+
+.ButtonText{
+    display: flex;
+    color: white;
+}

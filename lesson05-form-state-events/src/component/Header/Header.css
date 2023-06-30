@@ -1,0 +1,35 @@
+.HeaderForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderTitle{
+    margin-right: 100px;
+}
+
+.HeaderSearch{
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    width: 700px;
+    margin-left: 10px;
+}
+
+.HeaderIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderBasket{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+.basket{
+    display: flex;
+    transform: translate(1px,25px);
+}
