@@ -1,0 +1,63 @@
+.Header1{
+    display: block;
+    background-color: rgb(163, 150, 250);
+    padding: 20px 0;
+    border-radius: 5px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(250px);
+}
+
+.Button{
+    background-color: rgb(74, 7, 137);
+    color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+}
+
+.HeaderFalse{
+    display: block;
+    background-color: rgb(163, 150, 250);
+    border-radius: 5px;
+    width: 1000px;
+    transform: translateX(250px);
+}
+
+.FalseSpan{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+}
+
+.FalseInput{
+    transform: translate(80px,-20px);
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(163, 150, 250);
+}
+
+.FalseAdd{
+    display: flex;
+    transform: translate(800px,0px);
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.FalseCancel{
+    display: flex;
+    transform: translate(880px,-30px);
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}

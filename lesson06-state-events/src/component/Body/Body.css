@@ -1,0 +1,41 @@
+.BodyPart{
+    display: block;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    transform: translateX(250px);
+    background-color: black;
+}
+
+.List{
+    width: 800px;
+    height: 150px;
+    display: block;
+    transform: translateX(65px);
+    border: 1px solid gray;
+    margin: 30px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+}
+
+.ListDate{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.ListName{
+    display: flex;
+    transform: translate(300px,-100px);
+}
+
+.ListPrice{
+    display: flex;
+    transform: translate(700px,-150px);
+}
