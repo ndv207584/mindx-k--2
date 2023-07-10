@@ -1,0 +1,124 @@
+.HeaderPart{
+    display: flex;
+    background-color: rgb(62, 60, 60);
+    height: 80px;
+}
+
+.HeaderName{
+    color: white;
+    margin-left: 20px;
+    transform: translateY(12px);
+}
+
+.HeaderTool{
+    display: flex;
+    transform: translate(200px,20px);
+    gap: 20px;
+    height: 40px;
+}
+
+.HeaderInput{
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderButton{
+    background-color: rgb(62, 60, 60);
+    color: green;
+    border: 1px solid green;
+}
+
+.HeaderIcon{
+    display: flex;
+    transform: translate(900px);
+}
+
+.Icon1{
+    display: flex;
+    transform: translate(-80px,30px);
+}
+
+.Cart{
+    color: white;
+}
+
+.HeaderCart{
+    display: flex;
+    transform: translate(10px,-24px);
+    color: white;
+}
+
+.Icon2{
+    transform: translateY(25px);
+}
+
+.User{
+    color: white;
+    margin-right: 10px;
+}
+
+.HeaderSignIn{
+    color: white;
+    background-color: rgb(62, 60, 60);
+    border: 1px solid rgb(62, 60, 60);
+}
+
+.SignInPart{
+    display: block;
+    margin-left: 400px;
+}
+
+.SignInEmail{
+    display: flex;
+    transform: translateY(-10px);
+    border: none;
+    background-color: rgb(221, 214, 214);
+    height: 30px;
+    width: 300px;
+}
+
+.SignInPass{
+    display: flex;
+    transform: translateY(-10px);
+    border: none;
+    background-color: rgb(221, 214, 214);
+    height: 30px;
+    width: 300px;
+}
+
+.SignInButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+.Register{
+    display: flex;
+    transform: translateX(120px);
+}
+
+.Link{
+    display: flex;
+    transform: translate(-2px, 41px);
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+}
+
+.SignUpPart{
+    display: block;
+    margin-left: 400px;
+}
+
+.SignupButton{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+}

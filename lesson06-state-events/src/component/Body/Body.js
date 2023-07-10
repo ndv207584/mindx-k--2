@@ -1,8 +1,8 @@
 import React from "react";
 // import './BodyList';  
-import '../Card/Chart';
+import '../Chart/Chart';
 import './Body.css';
-import Chart from "../Card/Chart";
+import Chart from "../Chart/Chart";
 
 const Body = () => {
     <Chart />

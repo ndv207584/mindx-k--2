@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState([]);
-  console.log('🚀 ~ file: App.js:32 ~ App ~ count:', count);
+  console.log(count);
   return (
     <div className="App">
       <Header/>
